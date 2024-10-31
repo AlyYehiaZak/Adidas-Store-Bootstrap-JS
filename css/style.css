@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.my-text-primary{
+    color: #0d0d0d !important;
+}
+
+.my-text-secondary{
+    color: #ffffff !important;
+}
+
+.my-bg-primary{
+    background-color: #0d0d0d !important;
+}
+
+.my-bg-secondary{
+    background-color: #ffffff !important;
+}
+
+.myFontFamily{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.my-btn-secondary-hv:hover{
+    background-color: #c3c3c3 !important;
+}
+
+.my-btn-primary-hv:hover{
+    background-color: #1F1F1F !important;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Welcome Page */
+
+.welcome_container{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+/* Registration Page / Profile Page */
+
+.my-gender-switch:checked {
+    background-color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+}
+
+.my-gender-switch:checked:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 105, 180, 0.5) !important;
+}
+
+.my-gender-switch.male {
+    background-color: #007bff !important; 
+    border-color: #007bff !important;
+}
+
+.my-gender-switch.male:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.5) !important; 
+}
+
+.my-gender-switch::before {
+    background-color: white !important;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+/* Products Page */
+
+#user_navbar{
+    display: none;
+}
+
+#search_textbox{
+    display: none;
+}
+
+#price_search_textbox{
+    display: none;
+}
+
+.Cart_listItem{
+    width: 500px;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+#AddRemove_show{
+    display: block;
+}
+
+#AddRemove_hide{
+    display: none;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+/* Profile Page */
+
+#submitEdit_btn{
+    display: none;
+}
+
+.swiper{
+    height: 440px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/*/////// XL ////////*/
+@media (max-width:1200px){
+    
+}
+
+/* ////// lg /////// */
+@media (max-width:992px){
+    
+}
+
+/* ////// md /////// */
+@media (max-width:768px){
+    
+}
+
+/* ////// Sm /////// */
+@media (max-width:576px){
+    .Cart_listItem{
+        width: 100%;
+    }
+}
