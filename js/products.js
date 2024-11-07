@@ -6,7 +6,7 @@ let guest_navbar = document.querySelector("#guest_navbar")
 let profilePicIcon = document.querySelector("#profilePicIcon")
 
 if(localStorage.getItem("email")){
-    navbar_greeting.innerHTML = `Welcome ${localStorage.getItem("fName") + " " + localStorage.getItem("lName")}`
+    navbar_greeting.innerHTML = `Welcome ${localStorage.getItem("fName")}`
     guest_navbar.style.display = "none"
     user_navbar.style.display = "flex"
     if(localStorage.getItem("gender") == "male"){

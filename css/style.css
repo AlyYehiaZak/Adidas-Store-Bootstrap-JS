@@ -140,4 +140,8 @@
     .Cart_listItem{
         width: 100%;
     }
+
+    #navbar_greeting{
+        font-size: 15px !important;
+    }
 }
