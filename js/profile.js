@@ -61,10 +61,10 @@ let genderLabel = document.querySelector('#genderLabel');
 let profilePicIcon = document.querySelector("#profilePicIcon")
 
 if(localStorage.getItem("gender") == "male"){
-    profilePicIcon.innerHTML = `<img style="width: 465px;" src="images/malePP.png" alt="profilePic">`
+    profilePicIcon.innerHTML = `<img class="profilePicSize" src="images/malePP.png" alt="profilePic">`
     genderSwitch.checked = false
 }else if(localStorage.getItem("gender") == "female"){
-    profilePicIcon.innerHTML = `<img style="width: 465px;" src="images/femalePP.png" alt="profilePic">`
+    profilePicIcon.innerHTML = `<img class="profilePicSize" src="images/femalePP.png" alt="profilePic">`
     genderSwitch.checked = true
 }
 
