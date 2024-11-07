@@ -260,10 +260,12 @@ function drawCartProducts(){
                             <img style="width: 35px;" src="${item.imgPath}" alt="Product">
                             <span class="myFontFamily ps-2 align-content-center">${item.name}</span>
                         </div>
-                        <div class="align-content-center">
-                            <span class="myFontFamily fs-5">${item.cartCounter}</span>
-                            <i class="fa-solid fa-plus text-success fs-5 px-1 cursor_pointer" onclick="cartProductIncrement(event,${item.id})"></i>
-                            <i class="fa-solid fa-minus text-danger fs-5 cursor_pointer" onclick="cartProductDecrement(event,${item.id})"></i>
+                        <div class="align-content-center" style="width:100px !important;">
+                            <div class="d-flex justify-content-end gap-sm-3 gap-2">
+                                <span class="myFontFamily fs-5">${item.cartCounter}</span>
+                                <i class="fa-solid fa-plus text-success pt-1 fs-5 cursor_pointer" onclick="cartProductIncrement(event,${item.id})"></i>
+                                <i class="fa-solid fa-minus text-danger pt-1 fs-5 cursor_pointer" onclick="cartProductDecrement(event,${item.id})"></i>
+                            </div>
                         </div>
                     </div>
                 </li>`
