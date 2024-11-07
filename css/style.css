@@ -48,6 +48,10 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.carouselHeight{
+    height: 91%;
+}
+
 /* ////////////////////////////////////////////////////////// */
 
 /* Registration Page / Profile Page */
@@ -122,6 +126,23 @@
     width: 465px;
 }
 
+.favoriteProductImg{
+    height: 260px;
+}
+
+.favoriteCardSize{
+    width: 265px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+/* CheckOut Page */
+
+.checkOutProductImg{
+    width: 200px;
+    height: 200px;
+}
+
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /*/////// XL ////////*/
@@ -153,5 +174,27 @@
     .profilePicSize{
         width: 100vw;
     }
+
+    .checkOutProductImg{
+        width: 100px;
+        height: 100px;
+    }
+
+    .favoriteProductImg{
+        height: 180px;
+    }
     
+    .favoriteProductNameSize{
+        font-size: 18px;
+    }
+
+    .favoriteCardSize{
+        width: 265px;
+        height: 390px;
+    }
+
+    .carouselHeight{
+        height: 400px;
+    }
+
 }

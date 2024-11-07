@@ -17,7 +17,7 @@ function drawCart(){
 
     let result_code = savedCartProducts.map((item)=>{
         return `<div class="d-flex mt-5 ms-md-5">
-                    <img style="width: 200px; height: 200px;" src="${item.imgPath}" alt="Product">
+                    <img class="checkOutProductImg" src="${item.imgPath}" alt="Product">
                     <div class="ms-4">
                         <p class="myFontFamily fs-4">${item.name}</p>
                         <p class="myFontFamily fs-5">Category : ${item.category}</p>

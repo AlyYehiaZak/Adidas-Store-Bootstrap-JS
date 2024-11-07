@@ -174,10 +174,10 @@ function drawFavorites(){
 
     let result_code = savedFavorites.map((item)=>{
         return `<div class="swiper-slide d-flex">
-                    <div class="card" style="width:265px;">
-                        <img class="card-img-top" style="height: 260px;" src="${item.imgPath}" alt="Product">
+                    <div class="card favoriteCardSize">
+                        <img class="card-img-top favoriteProductImg" src="${item.imgPath}" alt="Product">
                         <div class="card-body">
-                            <h4 class="card-title myFontFamily">${item.name}</h4>
+                            <h4 class="card-title myFontFamily favoriteProductNameSize">${item.name}</h4>
                             <div class="d-flex justify-content-between">
                                 <div class="mt-2">
                                     <p class="mb-1 myFontFamily">Category : ${item.category}</p>
